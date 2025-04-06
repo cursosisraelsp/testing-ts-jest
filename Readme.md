@@ -4,17 +4,17 @@
 npx jest --listTests
 ```
 Para comprobar qué arquivos atopa Jest e cales executa. 
-> Por defecto, Jest localiza archivos que cumplan con alguno de estos patrones:
+> Por defecto, Jest localiza arquivos que cumplan con algún destes patróns:
 
-Archivos que estén en cualquier carpeta llamada __tests__
+Arquivos que estén en calquer carpeta chamada __tests__ ou `test`
 
-Archivos que terminen en .spec.ts, .test.ts, .spec.tsx, .test.tsx, etc.
+Arquivos que rematen en .spec.ts, .test.ts, .spec.tsx, .test.tsx, etc.
 
-No necesitás definir rutas manualmente, porque Jest sigue convenciones.
+Non necesitas definir rutas manualmente, porque Jest segue convenciones.
 
-Busca por defecto todos los *.spec.ts, *.test.ts, o archivos en carpetas __tests__.
+Busca por defecto todos os *.spec.ts, *.test.ts, ou arquivos en carpetas __tests__.
 
-Si queres personalizar isto, deberás usar testMatch ou testRegex.
+Se queres personalizar isto, deberás usar testMatch ou testRegex.
 
 [Enlace a Jest](https://jestjs.io/es-ES/docs/expect)
 
