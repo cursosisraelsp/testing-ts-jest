@@ -31,6 +31,43 @@ Se queremos ver as mensaxes que introducimos en `describe` ou `test`, é recomen
   }
 ```
 
+```bash
+$ npm run test
+
+> testing_typescript@1.0.0 test
+> jest --verbose
+
+ PASS  tests/suma.spec.ts
+> testing_typescript@1.0.0 test
+> jest --verbose
+
+ PASS  tests/suma.spec.ts
+> jest --verbose
+
+ PASS  tests/suma.spec.ts
+
+ PASS  tests/suma.spec.ts
+ PASS  tests/suma.spec.ts
+  Estou na funcion Suma
+    √ suma dous numeros (8 ms)
+
+ PASS  tests/claseMatematicas.spec.ts
+  Probas da clase Matemáticas
+    √ Clase matematicas  (8 ms)
+
+ PASS  tests/clase.spec.ts
+  estou dentro dunha clase
+    √ sumo? (6 ms)
+  estou dentro dunha clase con funcion tipo
+    √ sumo? (1 ms)
+
+Test Suites: 3 passed, 3 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        3.94 s, estimated 4 s
+Ran all test suites.
+```
+
 ## Executano o test con varios arquivos
 >Se queremos executar todos deberemos escribir neste caso ou 
 
