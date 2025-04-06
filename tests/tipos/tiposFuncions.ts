@@ -1,0 +1,1 @@
+export type tipoFuncioSuma = (valor1:number,valor2:number) => number;
